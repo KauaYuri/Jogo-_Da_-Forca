@@ -1,3 +1,5 @@
+# Trabalho feito por Kauã Yuri e Fabiano
+
 import os
 import sys
 import time
@@ -19,21 +21,16 @@ def jogar():
 
     desafiante = input("Informe seu nome Desafiante: ").upper().strip()
     competidor = input("Informe seu nome Competidor: ").upper().strip()
-
     os.system('cls')
 
     print(f'\n {desafiante} complete as informações a seguir: \n')
-
     palavra_secreta = input('Informe a Palavra Chave: ').upper().strip()
-
     dica1 = input('Informe a dica nº 1: ')
     dica2 = input('Informe a dica nº 2: ')
     dica3 = input('Informe a dica nº 3: ')
-
     os.system('cls')
 
     quantidade = len(palavra_secreta)
-    
     digitadas = []
     acerto = []
     erro = 0
